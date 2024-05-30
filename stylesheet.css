@@ -76,7 +76,6 @@ li {
 }
 
 /*NavBar*/
-html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center div.container div#collapseNav.collapse.navbar-collapse a.button.menu.center{margin: 0;}
 .nav-link {
     color: black;
     text-decoration: none;
@@ -96,16 +95,16 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 }
 
 .nav-item.active-link a {
-    color: #bfa760;
+    color: #2a7bbf;
 }
 
 .nav-item.active-link .underline {
     width: 100%;
-    background-color: #bfa760;
+    background-color: #2a7bbf;
 }
 
 .nav-item:hover .underline {
-    background-color: #bfa760;
+    background-color: #2a7bbf;
     width: 100%;
 }
 
@@ -114,7 +113,7 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 }
 
 .nav-item:hover a {
-    color: #bfa760;
+    color: #2a7bbf;
 }
 
 .nav-item:active a {
@@ -123,7 +122,7 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 
 .nav-item:active .underline {
     transition: none;
-    background-color: #bfa760;
+    background-color: #2a7bbf;
 }
 
 .navbar-nav {
@@ -139,7 +138,7 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 }
 
 .navbar-toggler {
-    background-color: #bfa760;
+    background-color: #2a7bbf;
     color: transparent !important;
 }
 
@@ -149,8 +148,8 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 
 .navbar-toggler:hover,
 .navbar-toggler:active {
-    border-color: #bfa760 !important;
-    background-color: #bfa760;
+    border-color: #2a7bbf !important;
+    background-color: #2a7bbf;
     color: transparent !important;
 }
 
@@ -161,6 +160,8 @@ html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center d
 .nav-link:focus {
     color: unset !important;
 }
+html body header nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.text-center div.container div#collapseNav.collapse.navbar-collapse a.button.menu.center{margin: 0;width: 200px;
+    height: 60px;}
 
 /*Index-Home*/
 .carousel {
@@ -435,7 +436,7 @@ section.testimonials h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     font-size: 2em;
-    color: #bfa760;
+    color: #2a7bbf;
     text-transform: uppercase;
 }
 
@@ -466,7 +467,7 @@ section.testimonials h2 span {
     font-family: "Cabin", sans-serif;
     font-style: italic;
     font-size: 20px;
-    color: #bfa760;
+    color: #2a7bbf;
     font-weight: 700;
     float: left;
 }
@@ -688,7 +689,7 @@ section.menu .title::after {
 }
 
 section.menu .subtitle {
-    color: #bfa760;
+    color: #2a7bbf;
     display: block;
     margin: 0 auto;
     margin-top: 0px;
@@ -744,7 +745,7 @@ section.menu span {
     font-weight: 700;
     font-style: italic;
     font-size: 18px;
-    color: #bfa760;
+    color: #2a7bbf;
     float: right;
     text-align: left;
 }
@@ -1162,8 +1163,8 @@ a.button.menu,
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
-    color: #bfa760;
-    border: 2px solid #bfa760;
+    color: #2a7bbf;
+    border: 2px solid #2a7bbf;
     padding: 16px 10px;
     margin-top: 68px;
     margin-bottom: 23px;
@@ -1177,7 +1178,7 @@ a.button.menu,
 
 a.button.menu:hover,
 .button.menu:hover {
-    background: #bfa760;
+    background: #2a7bbf;
     color: #ffffff;
     transition: 0.5s;
 }
@@ -1298,11 +1299,11 @@ ul.link_menu li a {
 }
 
 ul.link_menu li.active a {
-    color: #bfa760;
+    color: #2a7bbf;
 }
 
 ul.link_menu li a:hover {
-    color: #bfa760;
+    color: #2a7bbf;
     transform: translate(10px);
 }
 
